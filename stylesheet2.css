@@ -1,0 +1,77 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Avenir serif";
+}
+li {
+  list-style: none;
+}
+.header {
+  background-color:  #17202A ;
+  color:#fff;
+  font-size: 30px;
+  height: 100px;
+  border-bottom: 1px solid  #ABB2B9;
+}
+.header-logo{
+  text-align: center;
+  padding: 33px 20px;
+}
+.main {
+  background-color: #17202A ;
+  height:600px;
+  background: #b9fffc;
+  height:600px;
+  backgorund-repeat: no-repeat;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/71aiGJF1c2L._SL1000_.jpg")
+  backgorund-position:center;
+  background-size:cover;
+
+
+
+.content  {
+  float:left;
+  padding-bottom: 30px;
+  color:#fff;
+  line-height: 50px;
+  font-size: 30px;
+  border-bottom: 1px solid  #ABB2B9;
+}
+.content p {
+  float:left;
+  color:#fff;
+  line-height: 10px;
+  font-size:10px;
+}
+.footer {
+  background-color:#17202A;
+  color:#fff;
+  font-size: 20px;
+  height:660px;
+}
+.img-icon{
+  text-align: center;
+  padding: 33px 20px;
+  line-height: 130px;
+  text-align: center;
+}
+.img-icon:hover{
+  opacity: 50%;
+}
+.footer-logo{
+  text-align: center;
+  padding:33px 20px;
+  font-size:20;
+}
+.img-icon1{
+  text-align: center;
+  line-height: 130px;
+}
+.img-icon1:hover{
+  opacity: 50%;
+}
